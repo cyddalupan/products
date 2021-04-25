@@ -1,0 +1,15 @@
+<mat-progress-bar mode="indeterminate" *ngIf="(dataStatus$ | async) == dataStatus.LOADING">
+</mat-progress-bar>
+<div class="error" *ngIf="(dataStatus$ | async) == dataStatus.ERROR">
+    <mat-icon aria-hidden="false"> report_problem </mat-icon>
+    API Error
+</div>
+<mat-toolbar color="primary">
+    <mat-icon aria-hidden="false"> assignment_turned_in </mat-icon>
+    <span>Products Checkbox</span>
+</mat-toolbar>
+<div class="body">
+    <div *ngFor="let product of (products$ | async)">
+        <app-product [product]="product"></app-product>
+    </div>
+</div>

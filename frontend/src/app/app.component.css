@@ -1,0 +1,18 @@
+mat-icon {
+    margin-bottom: 4px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.error {
+    background-color: tomato;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 9px 0;
+    text-align: center;
+}
+
+.body {
+    padding: 30px;
+}
