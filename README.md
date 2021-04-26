@@ -21,7 +21,9 @@ List of products in a checkbox tree.
   * Run `composer update`
   * import products.sql to mysql Database
   * Update Database config on app/api/dbconnect.php
-  * Run local backend server go to folder public and run `php -S localhost:8888` --keep running
+  * Run local backend server.
+    * go to folder public 
+    * run `php -S localhost:8888` --keep running
 * Go to frontend folder
   * Run `npm install`
   * Update src/app/settings.ts for the api address
