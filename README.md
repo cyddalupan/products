@@ -4,8 +4,8 @@ List of products in a checkbox tree.
 
 ## Disclaimer
 
-- I only have 2 days of development for this project
-- I didnt know how to use slimframework I used half of my time learning the basics.
+I'm not able to implement token authentication this is my first time using slimframework and I only have 2 days to work on this, half of it spent on studying slimframework's basics.
+
 
 ### Prerequisites
 

@@ -30,7 +30,6 @@ export class ProductComponent implements OnInit {
   }
 
   onCheckAll(event) {
-    console.log("event",event);
     if (event) {
       this.store.dispatch(Actions.loadGetChildrenSubchildren({ id: this.product.id }));
     }

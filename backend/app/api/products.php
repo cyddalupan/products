@@ -72,4 +72,3 @@ $app->get('/children_subchildren/{parent_id}', function (Request $request, Respo
 
     return $response;
 });
-//->add(\PsrJwt\Factory\JwtMiddleware::json('Secret123!456$', 'jwt', ['Authorisation Failed']));
